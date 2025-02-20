@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  javafx-app:
+    build: .
+    container_name: javafx-library
+    environment:
+      - DISPLAY=${DISPLAY} # Required for GUI (Linux)
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix # X11 GUI forwarding
+    network_mode: "host" # Allow GUI forwarding

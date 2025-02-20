@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="Controllers.MainController">
+
+    <Label text="Library Management System" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+
+    <HBox spacing="10">
+        <TextField fx:id="titleField" promptText="Enter Book Title"/>
+        <TextField fx:id="authorField" promptText="Enter Author Name"/>
+        <TextField fx:id="isbnField" promptText="Enter ISBN"/>
+        <Button text="Add Book" onAction="#addBook"/>
+    </HBox>
+
+    <TableView fx:id="bookTable">
+        <columns>
+            <TableColumn text="Title" fx:id="titleColumn"/>
+            <TableColumn text="Author" fx:id="authorColumn"/>
+            <TableColumn text="ISBN" fx:id="isbnColumn"/>
+            <TableColumn text="Status" fx:id="statusColumn"/>
+        </columns>
+    </TableView>
+
+    <HBox spacing="10">
+        <Button text="Borrow Book" onAction="#borrowBook"/>
+        <Button text="Return Book" onAction="#returnBook"/>
+    </HBox>
+
+    <Label fx:id="statusLabel" text="Select a book to borrow or return."/>
+</VBox>

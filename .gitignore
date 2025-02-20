@@ -1,0 +1,69 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.idea/
+*.iml
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Logs ###
+*.log
+logs/
+log/
+
+### Build Artifacts ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Gradle ###
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Maven ###
+.mvn/
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Cache and Temp Files ###
+*.swp
+*.swo
+
+### Docker ###
+docker-compose.override.yml
+.docker/
+*.tar
+*.pid
+
+### JavaFX ###
+/.idea/artifacts/
+/.idea/libraries/
+/.idea/workspace.xml
