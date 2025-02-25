@@ -56,7 +56,7 @@ This is my first Java and JavaFX project, built to learn the fundamentals of Jav
     --add-modules javafx.controls,javafx.fxml -jar LibraryManagementSystem.jar
     ```
 
-> **Note:** If your JavaFX SDK is installed in a different location, replace
+> **Note:** Adjust the path to your JavaFX SDK as needed.
 
 ## Future Plans
 
