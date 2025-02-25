@@ -8,6 +8,10 @@ This is my first Java and JavaFX project, built to learn the fundamentals of Jav
 - **View Books** – Displays a list of books in the library.
 - **Borrow & Return (Planned)** – The code can be extended to let users borrow and return books.
 
+## Images
+
+![Library Management System UI](lms.png)
+
 ## Project Structure
 
 ```bash
